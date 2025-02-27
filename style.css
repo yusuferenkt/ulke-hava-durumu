@@ -1,0 +1,52 @@
+body {
+  
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%; /
+}
+
+#country-details {
+    height: 300px;
+}
+
+#details, #neighbors {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+#search .input-group {
+  gap: 0.5rem;
+}
+
+.neighbor-card {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.neighbor-card:hover {
+  transform: scale(1.02);
+  background-color: #f8f9fa;
+}
+
+.weather-card {
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  border-radius: 35px;
+  color: #333;
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
