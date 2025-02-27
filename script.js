@@ -106,7 +106,6 @@ const displayResult = (result) => {
   icon.src = `https://openweathermap.org/img/wn/${result.weather[0].icon}@2x.png`;
 
 
-  console.log(result);
 }
 
 function fadeOut(element) {
