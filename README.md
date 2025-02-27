@@ -1,6 +1,6 @@
 **Ülke ve Hava Durumu Bilgisi Projesi**
 
-Bu proje, kullanıcıların bir ülkeyi aratarak temel bilgilerine (nüfus, dil, başkent vb.) ve hava durumu detaylarına ulaşmasını sağlar. Ayrıca komşu ülkeler hakkında da kısa bilgiler sunar. Bootstrap ve JavaScript kullanarak modern bir tasarım ve etkileşimli bir deneyim hedeflenmiştir.
+Bu proje, kullanıcıların bir ülkeyi aratarak ülkenin bilgilerine (nüfus, dil, başkent vb.) ve hava durumu detaylarına ulaşmasını sağlar. Ayrıca komşu ülkeler hakkında da bilgiler verir. Bootstrap ve JavaScript kullanarak modern bir tasarım ve etkileşimli bir deneyim hedeflenmiştir.
 
 Özellikler
 
@@ -8,37 +8,29 @@ Bu proje, kullanıcıların bir ülkeyi aratarak temel bilgilerine (nüfus, dil,
 
 - Komşu Ülkeler: Aranan ülkeye komşu olan ülkelerin bayrak ve isim bilgileri gösterilir.
 
-- Hava Durumu: Seçilen ülkenin hava durumu, sıcaklık, rüzgar hızı ve nem oranı bilgileri sunulur.
+- Hava Durumu: Seçilen ülkenin hava durumu, sıcaklık, rüzgar hızı ve nem oranı bilgileri getirilir.
 
-- Konum Butonu: Kullanıcının mevcut konumuna ait hava durumunu otomatik olarak getirir (destekleyen tarayıcılarda).
+- Konum Butonu: Kullanıcının mevcut konumuna ait hava durumunu otomatik olarak getirir.
 
-- Duyarlı Tasarım (Responsive): Bootstrap 5 sayesinde farklı ekran boyutlarına uyumlu görünüm.
+- Duyarlı Tasarım (Responsive): Bootstrap 5 sayesinde farklı ekran boyutlarına uyumlu görünüm sağlanır.
 
 Kullanılan Teknolojiler
 
-- HTML5: Sayfa yapısını oluşturmak için.
+- HTML5: Sayfa yapısını oluşturmak için kullanıldı.
 
-- CSS3 & Bootstrap 5: Tasarımı ve düzeni sağlamak, kartlar, grid sistemi ve responsive yapı için.
+- CSS3 & Bootstrap 5: Tasarımı ve düzeni sağlamak, kartlar, grid sistemi ve responsive yapı için kullanıldı.
 
-- JavaScript: Ülke ve hava durumu verilerinin API’lerden çekilmesi, DOM manipülasyonu, etkileşimli özellikler için.
+- JavaScript: Ülke ve hava durumu verilerinin API’lerden çekilmesi, DOM manipülasyonu, etkileşimli özellikler için kullanıldı.
 
-- Font Awesome: İkonlar (örneğin konum ikonu) için.
+- Font Awesome: İkonlar (örneğin konum ikonu) için kullanıldı.
 
-Neden bu teknolojiler?
-
-- Bootstrap modern ve hızlı prototipleme için ideal bir çatı sunar.
-
-- Font Awesome gibi ikon kütüphaneleri, proje tasarımını zenginleştirir.
-
-- JavaScript ile dinamik veri çekme ve kullanıcı etkileşimini yönetebilirsiniz.
-
-Kullanım
+Sayfanın Kullanımı
 
 1. Ana Sayfa (index.html)
 
-   Arama Kutusu: Ülke adını girip “Ülkeyi ara” butonuna tıklayarak ülke bilgilerini çekebilirsiniz.
+   Arama Kutusu: Ülke adı girilip “Ülkeyi ara” butonuna tıklayanak ülke bilgileri getirilir.
 
-   Konum Butonu: Kırmızı butona (konum ikonu) tıklayarak tarayıcınızın konum erişimini kabul ederseniz, bulunduğunuz konumun hava durumu bilgilerini görürsünüz.
+   Konum Butonu: Kırmızı butona tıklanarak tarayıcının konum erişimi kabul edilir ve bulunan konumun hava durumu bilgileri görüntülenir.
 
 2. Arama Sonucu
 
